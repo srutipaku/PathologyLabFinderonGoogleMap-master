@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img2"
+    >
+    <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow5" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content" android:text="Pathology Lab Details" android:textSize="18sp"></TextView>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:id="@+id/tableRow1" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content" android:text=" LabName    " android:textSize="18sp"></TextView>
+        <TextView android:text="     TestName  " android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp"></TextView>
+        <TextView android:layout_width="wrap_content" android:text="    Price " android:layout_height="wrap_content" android:id="@+id/textView1" android:textSize="18sp"></TextView>
+</TableRow>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/gridview"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:numColumns="3"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:columnWidth="90dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+/>
+<TableRow android:layout_width="wrap_content" android:id="@+id/tableRow5" android:layout_height="wrap_content">
+</TableRow>
+
+</LinearLayout>
